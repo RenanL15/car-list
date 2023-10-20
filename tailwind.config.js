@@ -4,12 +4,12 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        run: "run 10s linear infinite",
+        run: "run 3s linear infinite",
       },
       keyframes: {
         run: {
-          "0%": { transform: "translateX(50rem)" },
-          "100%": { transform: "translateX(-100rem)" },
+          "0%": { transform: "translateX(100vw)" },
+          "100%": { transform: "translateX(-100vw)" },
         },
       },
     },
