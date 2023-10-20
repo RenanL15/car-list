@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Electrolize&family=Fira+Sans&family=Open+Sans&family=PT+Sans:wght@700&family=Roboto:wght@300;400&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: "VSC";
+  src: url(./assets/fonts/depixelbreit.woff);
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
