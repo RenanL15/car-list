@@ -4,12 +4,16 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        run: "run 10s linear infinite",
+        run: "run 5s linear infinite",
+        zoomIn: "zoomIn 200ms linear",
       },
       keyframes: {
         run: {
-          "0%": { transform: "translateX(100vw)" },
           "100%": { transform: "translateX(-100vw)" },
+        },
+        zoomIn: {
+          "0%": { transform: "scale(0)" },
+          "100%": { transform: "scale(1)" },
         },
       },
     },
